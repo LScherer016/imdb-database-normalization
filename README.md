@@ -29,6 +29,6 @@ O projeto inclui um módulo de análise de dados com queries complexas abrangend
 ## 🚀 Como Executar o Projeto
 Os scripts SQL foram construídos para serem **idempotentes** e modulares. Para reproduzir o banco de dados localmente:
 
-1. Execute o script ScriptDesnormalizadaVazia.sql para criar o banco de dados e a tabela bruta.
-2. Execute o script Data.sql para popular a tabela original com os 1000 filmes.
-3. Execute o script ScriptSQLfilmes.sql para decompor a base, criar as chaves primárias/estrangeiras e migrar os dados para a estrutura em 3FN.
+1. Execute o script `ScriptDesnormalizadaVazia.sql` para criar o banco de dados e a tabela bruta.
+2. Execute o script `Data.sql` para popular a tabela original com os 1000 filmes.
+3. Execute o script `ScriptSQLfilmes.sql` para decompor a base, criar as chaves primárias/estrangeiras e migrar os dados para a estrutura em 3FN.
