@@ -17,7 +17,7 @@ A partir de uma única tabela desnormalizada (`filmes_imdb`), o banco foi decomp
 * **Tabela Principal:** `filmes_imdb` (conectada ao Diretor via chave estrangeira 1:N)
 * **Tabelas Associativas (Pontes N:M):** `Elenco` (Filme ↔ Ator) e `Filme_Genero` (Filme ↔ Gênero)
 
-> `![Diagrama ER](Diagrama ER.png)`
+> ![Diagrama ER](Diagrama_ER.png)
 
 ## 🔍 Consultas Avançadas
 O projeto inclui um módulo de análise de dados com queries complexas abrangendo:
